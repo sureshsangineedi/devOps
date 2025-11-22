@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile
+          file: apps/docker for test 1/Dockerfile
           push: true
           tags: ${{ env.USERNAME }}/${{ env.IMAGE_NAME }}:latest
 
