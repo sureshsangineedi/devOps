@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'apps/abdulkalam/**' 
-      - '.github/workflows/abdulkalam.yml' # 👈 only trigger when this folder changes
+      - '.github/workflows/abdulkalam.yaml' # 👈 only trigger when this folder changes
   workflow_dispatch:              # 👈 allow manual run 
 
 jobs:
