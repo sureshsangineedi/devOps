@@ -1,4 +1,4 @@
-name: ironman-website
+name: test01-website
 
 on:
   push:
